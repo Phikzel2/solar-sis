@@ -24,8 +24,8 @@
         "charging_current1": 1,
         "charging_current2": 1,
         "charging_power": 1,
-	"u_v6": false,
-	"u_v7": false,
+	"temperature": 1,
+	"battery_voltage_ext": 1,
 	"u_v8": false,
 	"u_v9": false,
 	"settings": 1
