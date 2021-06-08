@@ -6,15 +6,14 @@
   "serial_restart_threshold": 10000,
   "serial_clear_command_queue_on_restart": true,
   "http_port": 3003,
-  "influx_device": "pcm1",
-  "influx_pre": "solar",
-  "influxUrl": "http://192.168.10.100:8086/write?db=powerwall&precision=s",
+  "influx_pre": "pcm2_",
+  "influxUrl": "http://192.168.1.80:8086/write?db=powerwall&precision=s",
   "IntervalCommands": [
     {
       "name": "general_status",
       "config": "query_config",
       "command": "query/general_status",
-      "interval": 5000,
+      "interval": 3000,
       "max": 0,
       "influx": true,
       "callback": "general_status"
