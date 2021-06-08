@@ -1,5 +1,5 @@
 {
-  "serial_port": "/dev/ttyUSB1",
+  "serial_port": "/dev/ttyAMA0",
   "serial_baudrate": 2400,
   "serial_queue_delay": 200,
   "serial_parsers_readline": "\r",
